@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.traffic.GraphActivity">
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linechart"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <ListView
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:divider="#848484"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/linechart"
+        android:id="@+id/listview"></ListView>
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context="com.example.traffic.MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/blank0"
+        android:layout_height="50dp"></FrameLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/blank0"
+        android:id="@+id/mainImage"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/statistics"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainImage"
+        android:id="@+id/main"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="최적 교통 시간 예측 시스템"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/main"
+        android:id="@+id/blank1"
+        android:layout_height="50dp"></FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/departure_box"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/blank1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/departure_text"
+            android:textSize="20dp"
+            android:text="출발지"/>
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/departure_spinner" >
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrive_box"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/departure_box"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrive_text"
+            android:textSize="20dp"
+            android:text="도착지"/>
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrive_spinner" >
+        </Spinner>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/arrive_box"
+        android:id="@+id/blank2"
+        android:layout_height="100dp"></FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/btn_box"
+        android:layout_below="@id/blank2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/go"
+            android:layout_marginVertical="20dp"
+            android:textSize="20dp"
+            android:background="#F9B917"
+            android:text="예측보기"/>
+    </LinearLayout>
+</RelativeLayout>

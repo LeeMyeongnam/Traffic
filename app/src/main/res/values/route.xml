@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="seoul_gwangju">
+        <item>101</item>
+        <item>612</item>
+        <item>608</item>
+        <item>167</item>
+    </string-array>
+    <string-array name="gwangju_seoul">
+        <item>167</item>
+        <item>618</item>
+        <item>602</item>
+        <item>101</item>
+    </string-array>
+    <string-array name="seoul_busan">
+        <item>101</item>
+        <item>629</item>
+        <item>252</item>
+    </string-array>
+    <string-array name="busan_seoul">
+        <item>252</item>
+        <item>622</item>
+        <item>101</item>
+    </string-array>
+
+    <string-array name="seoul_daegu">
+        <item>101</item>
+        <item>129</item>
+    </string-array>
+    <string-array name="daegu_seoul">
+        <item>129</item>
+        <item>101</item>
+    </string-array>
+
+    <string-array name="seoul_daejeon">
+        <item>101</item>
+        <item>612</item>
+        <item>152</item>
+    </string-array>
+    <string-array name="daejeon_seoul">
+        <item>152</item>
+        <item>602</item>
+        <item>101</item>
+    </string-array>
+
+    <string-array name="seoul_ulsan">
+        <item>101</item>
+        <item>641</item>
+    </string-array>
+    <string-array name="ulsan_seoul">
+        <item>641</item>
+        <item>101</item>
+    </string-array>
+
+    <string-array name="seoul_sejong">
+        <item>101</item>
+        <item>612</item>
+        <item>603</item>
+    </string-array>
+    <string-array name="sejong_seoul">
+        <item>603</item>
+        <item>602</item>
+        <item>101</item>
+    </string-array>
+
+    <string-array name="seoul_gangreung">
+        <item>190</item>
+        <item>189</item>
+    </string-array>
+    <string-array name="gangreung_seoul">
+        <item>189</item>
+        <item>651</item>
+    </string-array>
+
+    <string-array name="seoul_jeonju">
+        <item>101</item>
+        <item>612</item>
+        <item>608</item>
+        <item>590</item>
+    </string-array>
+
+    <string-array name="jeonju_seoul">
+        <item>590</item>
+        <item>618</item>
+        <item>602</item>
+        <item>101</item>
+    </string-array>
+
+    <string-array name="gwangju_busan">
+        <item>261</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="busan_gwangju">
+        <item>150</item>
+        <item>261</item>
+    </string-array>
+
+    <string-array name="gwangju_daegu">
+        <item>261</item>
+        <item>519</item>
+    </string-array>
+
+    <string-array name="daegu_gwangju">
+        <item>519</item>
+        <item>261</item>
+    </string-array>
+
+    <string-array name="gwangju_daejeon">
+        <item>167</item>
+        <item>152</item>
+    </string-array>
+    <string-array name="daejeon_gwangju">
+        <item>152</item>
+        <item>167</item>
+    </string-array>
+
+    <string-array name="gwangju_ulsan">
+        <item>261</item>
+        <item>145</item>
+        <item>641</item>
+    </string-array>
+    <string-array name="ulsan_gwangju">
+        <item>641</item>
+        <item>569</item>
+    </string-array>
+
+    <string-array name="gwangju_donghae">
+        <item>167</item>
+        <item>583</item>
+    </string-array>
+    <string-array name="donghae_gwangju">
+        <item>583</item>
+        <item>167</item>
+    </string-array>
+
+    <string-array name="gwangju_sejong">
+        <item>167</item>
+        <item>579</item>
+    </string-array>
+    <string-array name="sejong_gwangju">
+        <item>579</item>
+        <item>167</item>
+    </string-array>
+
+    <string-array name="gwangju_gangreung">
+        <item>167</item>
+        <item>189</item>
+    </string-array>
+    <string-array name="gangreung_gwangju">
+        <item>189</item>
+        <item>167</item>
+    </string-array>
+    <string-array name="gwangju_jeonju">
+        <item>167</item>
+        <item>159</item>
+    </string-array>
+    <string-array name="jeonju_gwangju">
+        <item>159</item>
+        <item>167</item>
+    </string-array>
+    <string-array name="gwangju_incheon">
+        <item>167</item>
+        <item>685</item>
+    </string-array>
+    <string-array name="incheon_gwangju">
+        <item>254</item>
+        <item>569</item>
+    </string-array>
+
+
+</resources>

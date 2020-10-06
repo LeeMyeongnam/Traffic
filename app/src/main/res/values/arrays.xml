@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="departure_all">
+        <item>선택하세요</item>
+        <item>서울</item>
+        <item>광주</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>세종</item>
+        <item>동해</item>
+        <item>인천</item>
+        <item>강릉</item>
+        <item>전주</item>
+    </string-array>
+    <string-array name="departure_incheon">
+        <item>선택하세요</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name="arrive_seoul">
+        <item>선택하세요</item>
+        <item>광주</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>세종</item>
+        <item>강릉</item>
+        <item>전주</item>
+    </string-array>
+    <string-array name="arrive_gwangju">
+        <item>선택하세요</item>
+        <item>서울</item>
+        <item>인천</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>동해</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>세종</item>
+        <item>강릉</item>
+        <item>전주</item>
+    </string-array>
+    <string-array name="arrive_other">
+        <item>선택하세요</item>
+        <item>서울</item>
+        <item>광주</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>선택하세요</item>
+        <item>seoul</item>
+        <item>gwangju</item>
+        <item>busan</item>
+        <item>daegu</item>
+        <item>daejeon</item>
+        <item>ulsan</item>
+        <item>sejong</item>
+        <item>donghae</item>
+        <item>incheon</item>
+        <item>gangreung</item>
+        <item>jeonju</item>
+    </string-array>
+
+</resources>
